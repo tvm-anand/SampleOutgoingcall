@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:SampleOutgoingcall"
+             x:Class="SampleOutgoingcall.MainPage">
+
+    <StackLayout>
+       
+        <Label Text="+91123456789" 
+               x:Name="phonenumber"
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+
+
+        <Button x:Name="Button" Text="Call" BackgroundColor="Green" TextColor="Black" Clicked="Call_Clicked" HorizontalOptions="Center" VerticalOptions="Center"></Button>
+    </StackLayout>
+
+</ContentPage>
